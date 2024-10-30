@@ -1,0 +1,195 @@
+.knotch-wrapper {
+	margin: -6px -12px -12px;
+}
+
+.knotch-refresh-wrapper {
+	text-align: center;
+}
+
+.knotch-topic-step {
+	position: relative;
+}
+
+.knotch-center-label {
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.knotch-suggestion-message {
+	margin: 8px 0;
+	font-weight: bold;
+	text-align: center;
+	opacity: 0;
+}
+
+.knotch-step-header {
+	background-color: #2b3940;
+	color: #fff;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+
+.knotch-topics-container {
+	vertical-align: top;
+	width: 220px;
+	margin: 30px auto;
+}
+
+#knotch-add-widget span.knotch-loading {
+	margin-top: 4px;
+	display: inline-block;
+	width: 21px;
+	height: 25px;
+	background: url('../images/knotch-spinner.svg') no-repeat;
+	background-size: contain;
+}
+
+.knotch-loading-block {
+	margin: 0 auto;
+	text-align: center;
+	color: #aaaeb2;
+	position: absolute;
+	top: 130px;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+.knotch-loading-message {
+	padding: 0 40px;
+}
+
+.knotch-suggest-topics {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.knotch-topic-suggestions {
+	margin-top: 5px;
+	height: 130px;
+}
+
+#knotch-add-widget .knotch-suggested-topic {
+	margin: 5px 0;
+}
+
+#knotch-add-widget .knotch-suggested-topic label {
+	max-width: 185px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+#knotch-add-widget .knotch-suggested-topic input[type="radio"] {
+	margin-top: 1px;
+}
+
+.knotch-topic-suggestions .knotch-topic-name-other {
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+.knotch-widget-preview {
+	width: 280px;
+	height: 140px;
+	margin: 20px auto;
+}
+
+.knotch-empty-preview {
+	display: inline-block;
+	background: url('../images/preview-empty.png') no-repeat;
+	width: 280px;
+	height: 140px;
+	background-size: cover;
+}
+
+.knotch-preview-frame {
+	width: 280px;
+	height: 140px;
+	display: inline-block;
+	border: 0;
+}
+
+.knotch-prompt-wrapper {
+	margin: 10px 0;
+}
+
+#knotch-add-widget .knotch-prompt-step .knotch-suggested-topic {
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.knotch-widget-prompt {
+	margin-left: 7px;
+	font-size: 12px;
+}
+
+.knotch-bottom-shelf {
+	border-top: 1px solid #eee;
+	padding: 6px 12px 9px;
+}
+
+.knotch-bottom-shelf .knotch-disable-widget {
+	margin-top: 1px;
+}
+
+@media screen and (min-width: 901px) {
+	.knotch-topic-step {
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+		height: 350px;
+	}
+
+	.knotch-prompt-step {
+		display: inline-block;
+		width: 50%;
+	}
+
+	.knotch-prompt-wrapper {
+		height: 60px;
+		padding: 120px 0;
+		border-left: 1px solid #ebebeb;
+		border-right: 1px solid #ebebeb;
+	}
+
+	.knotch-prompt-step .knotch-step-header {
+		background-image: url('../images/arrow.svg');
+		background-repeat: no-repeat;
+	}
+}
+
+@media screen and (min-width: 1250px) {
+	.knotch-preview-step .knotch-step-header {
+		background-image: url('../images/arrow.svg');
+		background-repeat: no-repeat;
+	}
+
+	.knotch-topic-step {
+		width: 33%;
+		display: inline-block;
+		vertical-align: top;
+		height: 350px;
+	}
+
+	.knotch-prompt-step {
+		width: 27%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.knotch-preview-step {
+		width: 40%;
+		display: inline-block;
+		vertical-align: top;
+		height: 350px;
+	}
+
+	.knotch-widget-preview {
+		margin-top: 90px;
+	}
+}

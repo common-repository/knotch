@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="75px" height="90px" viewBox="0 0 100 120" enable-background="new 0 0 100 120" xml:space="preserve">
+<defs>
+<style type="text/css"><![CDATA[
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1200;
+    -webkit-animation: dash 3s ease-out forwards infinite;
+    -moz-animation: dash 3s ease-out forwards infinite;
+    -o-animation: dash 3s ease-out forwards infinite;
+    animation: dash 3s ease-out forwards infinite;
+}
+
+@-webkit-keyframes dash {
+    from {
+        stroke-dashoffset: 1200;
+    }
+    to {
+        stroke-dashoffset: 3000;
+    }
+}
+@-moz-keyframes dash {
+    from {
+        stroke-dashoffset: 1200;
+    }
+    to {
+        stroke-dashoffset: 3000;
+    }
+}
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1200;
+    }
+    to {
+        stroke-dashoffset: 3000;
+    }
+}
+]]>
+</style>
+</defs>
+<path class="path" fill="#aaaeb2" stroke="#aaaeb2" fill-opacity="0" stroke-width="7" stroke-linejoin="round" stroke-miterlimit="10" d="M51.476,57.859l38.474-21.75L48.888,12.971L8.812,36.109v46.276l40.075,23.14l40.075-23.14c0,0,4.557-3.111,0-7.395c-2.983-2.805-7.399-6.05-7.399-6.05"/>
+<path class="path" fill="#aaaeb2" stroke="#aaaeb2" fill-opacity="0" stroke-width="7" stroke-linejoin="round" stroke-miterlimit="10" d="M49.432,44.817l-11.962,7.219c-1.827,0.915-1.751,2.002-1.751,2.002s0,1.963,0,7.139c0,5.174,2.142,5.71,2.142,5.71l12.04,6.106l41.143-23.136"/>
+<path class="path" fill="#aaaeb2" stroke="#aaaeb2" fill-opacity="0" stroke-width="7" stroke-linejoin="round" stroke-miterlimit="10" d="M67.124,38.845L49.233,28.764L22.836,44.006v30.482L49.233,89.73l22.078-12.748c0,0,1.238-0.832,3.47,1.042c2.23,1.874,1.517,1.338,1.517,1.338"/> +
+</svg>
